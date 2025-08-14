@@ -1,0 +1,23 @@
+# The 'version' attribute is no longer needed in modern Docker Compose.
+# We can define our services directly.
+
+services:
+  # Backend Service (Node.js API)
+  backend:
+    build: .
+    container_name: ampd-backend
+    volumes:
+      - ./data:/usr/src/app/data
+    ports:
+      - "3000:3000"
+
+  # Frontend Service (Nginx Web Server)
+  frontend:
+    image: nginx:alpine
+    container_name: ampd-frontend
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
