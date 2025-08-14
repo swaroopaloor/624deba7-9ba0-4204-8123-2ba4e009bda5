@@ -38,7 +38,7 @@ Follow these instructions to get the application up and running on your local ma
 1.  **Clone the repository:**
     ```bash
     git clone # Replace the URL with your actual repository URL
-    git clone https://github.com/swaroopaloor/624deba7-9ba0-4204-8123-2ba4e009bda5.git
+    git clone https://github.com/swaroopaloor/624deba7-9ba0-4204-8123-2ba4e009bda5
     ```
 
 2.  **Navigate to the project directory:**
