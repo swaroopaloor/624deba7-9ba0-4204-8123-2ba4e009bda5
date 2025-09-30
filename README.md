@@ -1,6 +1,6 @@
 # Ampd Energy - Savings Dashboard
 
-This project is a full-stack web application created for a take-home coding exercise. It features a Node.js backend API that serves aggregated energy savings data from a CSV file, and a modern, responsive frontend dashboard to visualize this data. The entire application is containerized with Docker for seamless setup and deployment on any Mac OS or Linux system.
+ It features a Node.js backend API that serves aggregated energy savings data from a CSV file, and a modern, responsive frontend dashboard to visualize this data. The entire application is containerized with Docker for seamless setup and deployment on any Mac OS or Linux system.
 
 
 
